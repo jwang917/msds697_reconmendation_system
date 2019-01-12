@@ -1,0 +1,5 @@
+Decompress all the meta data zipped file into one folder. And use terminal to enter following codes to create an aggregated file.
+In bash:
+
+
+for filename in $(ls *.json);do sed 1d $filename >> meta_review_MusicBookGames.json;done;
